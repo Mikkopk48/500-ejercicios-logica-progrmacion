@@ -1,4 +1,4 @@
-package com.devtalles.project;
+package com.devtalles.project.junior_primer_nivel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,7 +53,7 @@ public class Ejercicio03 {
         return Math.floor((celsius + 273.15) * 100) / 100;
     }
 }
- class ResultadoTemperatura {
+class ResultadoTemperatura {
 
     private final int numeroLugar;
     private final String lugar;
