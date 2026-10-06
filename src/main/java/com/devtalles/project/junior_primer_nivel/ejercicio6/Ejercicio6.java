@@ -11,14 +11,17 @@ public class Ejercicio6 {
         double rendimientoPeriodo = (interesGanado / capital) * 100;
         System.out.println("Interés ganado: " + Math.round(interesGanado * 100.0) / 100.0);
         System.out.println("Total al vencimiento: " + Math.round(totalVencimiento * 100.0) / 100.0);
-        System.out.println("Rendimiento del período: " +  Math.round(rendimientoPeriodo * 100.0) / 100.0+ "%");
+        System.out.println("Rendimiento del período: " + Math.round(rendimientoPeriodo * 100.0) / 100.0 + "%");
         if (inflacionEsperadaMes < rendimientoPeriodo) {
             System.out.println("Le ganó a la inflación del mes: " + Math.round(rendimientoPeriodo * 100.0) / 100.0 + "%");
         } else {
             double perdio = inflacionEsperadaMes - rendimientoPeriodo;
             System.out.println("Perdió contra la inflación por: " + perdio);
         }
-        double interesGanadoAnio = (capital * TNA * plazo) / ((double) 365 /12);
-        System.out.println("Interés ganado en un año: " +interesGanadoAnio);
+        double interesGanadoAnio = (capital * TNA * plazo) / ((double) 365 / 12);
+        System.out.println("Interés ganado en un año: " + interesGanadoAnio);
+
+        double TNAminima = (inflacionEsperadaMes / 100) * (365.0 / plazo);
+        System.out.println("El rendimiento mínimo necesario para ganarle a la inflación es" + inflacionEsperadaMes);
     }
 }
