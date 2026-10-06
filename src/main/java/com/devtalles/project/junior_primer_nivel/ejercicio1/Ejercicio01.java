@@ -1,4 +1,4 @@
-package com.devtalles.project.junior_primer_nivel;
+package com.devtalles.project.junior_primer_nivel.ejercicio1;
 
 import java.util.Scanner;
 

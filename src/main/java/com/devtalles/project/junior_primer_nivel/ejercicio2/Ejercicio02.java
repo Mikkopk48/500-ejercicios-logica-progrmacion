@@ -1,4 +1,4 @@
-package com.devtalles.project.junior_primer_nivel;
+package com.devtalles.project.junior_primer_nivel.ejercicio2;
 
 import java.time.Duration;
 import java.time.LocalTime;
