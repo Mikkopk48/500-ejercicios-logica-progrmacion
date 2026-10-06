@@ -1,6 +1,5 @@
-package com.devtalles.project;
+package com.devtalles.project.junior_primer_nivel.ejercicio4;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Ejercicio04 {

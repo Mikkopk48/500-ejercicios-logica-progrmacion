@@ -1,4 +1,4 @@
-package com.devtalles.project.junior_primer_nivel;
+package com.devtalles.project.junior_primer_nivel.ejercicio3;
 
 import java.util.ArrayList;
 import java.util.List;
