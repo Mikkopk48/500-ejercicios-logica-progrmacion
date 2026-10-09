@@ -1,11 +1,9 @@
 package com.devtalles.project;
 
-import com.devtalles.project.junior_primer_nivel.ejercicio6.Ejercicio6;
-import com.devtalles.project.junior_primer_nivel.ejercicio7.Ejercicio7;
-import com.devtalles.project.junior_primer_nivel.ejercicio8.Ejercicio8;
+import com.devtalles.project.junior_primer_nivel.ejercicio9.Ejercicio9;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        Ejercicio01.calculadoraCuentaPropina();
 //        Ejercicio02.calcularTrayecto();
 //        Ejercicio03.calculadora();
@@ -14,7 +12,8 @@ public class Main {
 //        Ejercicio5.calculadoraAcademica();
 //          Ejercicio6.calculadoraTNA();
 //          Ejercicio7.calculadoraIMC();
-        Ejercicio8.calculadoraHorasTrabajadas();
+//        Ejercicio8.calculadoraHorasTrabajadas();
+        Ejercicio9.cuentaRegresiva();
 //        Prueba.prueba();
     }
 }
