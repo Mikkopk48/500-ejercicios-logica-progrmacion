@@ -6,6 +6,9 @@ public class Ejecicio12 {
     public static void calculadoraDatosMoviles() {
         Map<String,Integer> consumos = new HashMap<>();
 
+        // MAP:idea abstracta
+        // HASHMAP: la forma de implementarlo usando una tabla hash
+
         consumos.put("WhatsApp",1350);
         consumos.put("Videos",7420);
         consumos.put("Música",2210);

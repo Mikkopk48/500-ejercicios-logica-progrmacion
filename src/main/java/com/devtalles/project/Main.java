@@ -1,7 +1,8 @@
 package com.devtalles.project;
 
 
-import com.devtalles.project.junior_primer_nivel.ejercicio12.Ejecicio12;
+import com.devtalles.project.junior_primer_nivel.ejercicio13.Ejercicio13;
+
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -17,7 +18,8 @@ public class Main {
 //        Ejercicio9.cuentaRegresiva();
 //        Ejercicio10.calculadoraPrecioPeso();
 //        Ejercicio11.calculadoraPrecioPeso();
-          Ejecicio12.calculadoraDatosMoviles();
+//        Ejecicio12.calculadoraDatosMoviles();
+          Ejercicio13.calculadoraGoles();
 //        Prueba.prueba();
     }
 }
