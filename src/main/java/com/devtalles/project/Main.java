@@ -2,6 +2,7 @@ package com.devtalles.project;
 
 
 import com.devtalles.project.junior_primer_nivel.ejercicio13.Ejercicio13;
+import com.devtalles.project.junior_primer_nivel.ejercicio14.Ejercicio14;
 
 
 public class Main {
@@ -19,7 +20,8 @@ public class Main {
 //        Ejercicio10.calculadoraPrecioPeso();
 //        Ejercicio11.calculadoraPrecioPeso();
 //        Ejecicio12.calculadoraDatosMoviles();
-          Ejercicio13.calculadoraGoles();
+//        Ejercicio13.calculadoraGoles();
+          Ejercicio14.calculadoraElectricidad();
 //        Prueba.prueba();
     }
 }
